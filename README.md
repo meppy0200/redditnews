@@ -68,4 +68,4 @@ Bu proje eğitim amaçlıdır.
 
 ## 👤 Yazar
 
-Veri Bilimine Giriş Dersi Projesi
+Veri Bilimine Giriş Dersi J Grubu Öğrencileri / OSTIM 
