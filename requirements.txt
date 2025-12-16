@@ -1,0 +1,11 @@
+kagglehub
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+nltk
+jupyter
+notebook
+ipykernel
+plotly

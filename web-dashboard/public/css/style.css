@@ -1,0 +1,276 @@
+/* ==================== Custom Styles for Bootstrap Dashboard ==================== */
+
+:root {
+  /* Brand Colors - Flat & Solid */
+  --bs-primary: #4f46e5;
+  /* Indigo 600 */
+  --bs-secondary: #64748b;
+  /* Slate 500 */
+  --bs-success: #10b981;
+  /* Emerald 500 */
+  --bs-danger: #ef4444;
+  /* Red 500 */
+  --bs-warning: #f59e0b;
+  /* Amber 500 */
+  --bs-info: #06b6d4;
+  /* Cyan 500 */
+  --bs-dark: #1e293b;
+  /* Slate 800 */
+  --bs-light: #f8fafc;
+  /* Slate 50 */
+
+  --bs-body-bg: #f8fafc;
+  --bs-body-color: #334155;
+  /* Slate 700 */
+
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==================== Loading Screen ==================== */
+#loading-screen {
+  z-index: 9999;
+  background-color: #ffffff;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#loading-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* ==================== Navbar ==================== */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  color: #1e293b !important;
+  font-weight: 700;
+}
+
+.navbar-brand i {
+  color: #ef4444;
+  /* Reddit Red */
+}
+
+.nav-link {
+  color: #64748b !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--bs-primary) !important;
+}
+
+/* ==================== Hero Section ==================== */
+.hero-section {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero-section h1 {
+  color: #0f172a;
+  /* Slate 900 */
+  letter-spacing: -0.025em;
+}
+
+/* ==================== Cards ==================== */
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #475569;
+  /* Slate 600 */
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* ==================== Stat Cards (Hero) ==================== */
+.stat-card {
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.stat-card h3 {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.stat-card p {
+  color: #64748b;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.stat-card i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* ==================== Event Cards ==================== */
+.event-card {
+  border-left: 4px solid;
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateX(4px);
+}
+
+.event-card.crisis {
+  border-left-color: #ef4444;
+}
+
+.event-card.spring {
+  border-left-color: #f59e0b;
+}
+
+.event-card.election {
+  border-left-color: #3b82f6;
+}
+
+.event-card.covid {
+  border-left-color: #10b981;
+}
+
+.event-card.war {
+  border-left-color: #8b5cf6;
+}
+
+.event-stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.event-stat:last-child {
+  border-bottom: none;
+}
+
+.badge {
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  border-radius: 4px;
+}
+
+/* ==================== Top Posts ==================== */
+.post-card {
+  border-left: 4px solid transparent;
+}
+
+.post-card:hover {
+  border-left-color: var(--bs-primary);
+  background-color: #f8fafc;
+}
+
+.post-rank {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #cbd5e1;
+  /* Light Slate - subtle rank number */
+  line-height: 1;
+}
+
+.post-title a {
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.15s;
+}
+
+.post-title a:hover {
+  color: var(--bs-primary);
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+/* ==================== Charts ==================== */
+canvas {
+  max-height: 400px;
+}
+
+/* ==================== Utilities ==================== */
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.text-success {
+  color: var(--bs-success) !important;
+}
+
+.text-danger {
+  color: var(--bs-danger) !important;
+}
+
+.text-warning {
+  color: var(--bs-warning) !important;
+}
+
+.text-info {
+  color: var(--bs-info) !important;
+}
+
+.bg-light {
+  background-color: #f1f5f9 !important;
+  /* Slate 100 */
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .stat-card h3 {
+    font-size: 1.5rem;
+  }
+}

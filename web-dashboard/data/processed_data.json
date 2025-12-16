@@ -1,0 +1,348 @@
+{
+  "yearlyStats": {
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "postCounts": [
+      8242,
+      26778,
+      42198,
+      65153,
+      133064,
+      328783,
+      495298,
+      627551,
+      754829,
+      783775,
+      520598,
+      416955,
+      827705,
+      502877,
+      326149,
+      315543,
+      111205,
+      147
+    ],
+    "avgScores": [
+      6.0,
+      6.84,
+      8.56,
+      12.57,
+      14.03,
+      16.23,
+      18.94,
+      26.54,
+      26.47,
+      64.53,
+      128.53,
+      163.04,
+      148.74,
+      201.52,
+      287.97,
+      132.94,
+      379.35,
+      362.34
+    ],
+    "avgComments": [
+      1.97,
+      2.86,
+      3.38,
+      3.77,
+      4.09,
+      6.57,
+      8.61,
+      10.93,
+      9.8,
+      12.06,
+      17.8,
+      19.67,
+      13.39,
+      20.94,
+      28.96,
+      17.39,
+      35.85,
+      6.31
+    ]
+  },
+  "majorEvents": [
+    {
+      "name": "2008 Financial Crisis",
+      "period": "2008-2009",
+      "stats": {
+        "totalPosts": 1186,
+        "avgScore": 6.88,
+        "avgComments": 2.14,
+        "percentageOfPeriod": 3.39
+      },
+      "topKeywords": [
+        "economy",
+        "financial",
+        "crisis",
+        "bailout",
+        "recession"
+      ]
+    },
+    {
+      "name": "2011 Arab Spring",
+      "period": "2011-2012",
+      "stats": {
+        "totalPosts": 5553,
+        "avgScore": 19.49,
+        "avgComments": 5.1,
+        "percentageOfPeriod": 2.8
+      },
+      "topKeywords": [
+        "egypt",
+        "libya",
+        "syria",
+        "tunisia",
+        "protest"
+      ]
+    },
+    {
+      "name": "2016 US Elections",
+      "period": "2016",
+      "stats": {
+        "totalPosts": 42069,
+        "avgScore": 19.0,
+        "avgComments": 7.9,
+        "percentageOfPeriod": 5.57
+      },
+      "topKeywords": [
+        "trump",
+        "clinton",
+        "election",
+        "vote",
+        "campaign"
+      ]
+    },
+    {
+      "name": "2020 COVID-19 Pandemic",
+      "period": "2020-2021",
+      "stats": {
+        "totalPosts": 156604,
+        "avgScore": 189.11,
+        "avgComments": 19.32,
+        "percentageOfPeriod": 11.77
+      },
+      "topKeywords": [
+        "covid",
+        "coronavirus",
+        "pandemic",
+        "vaccine",
+        "lockdown"
+      ]
+    },
+    {
+      "name": "2022-2023 Ukraine War",
+      "period": "2022-2023",
+      "stats": {
+        "totalPosts": 53754,
+        "avgScore": 251.85,
+        "avgComments": 24.81,
+        "percentageOfPeriod": 8.38
+      },
+      "topKeywords": [
+        "ukraine",
+        "russia",
+        "putin",
+        "war",
+        "invasion"
+      ]
+    }
+  ],
+  "summary": {
+    "totalPosts": 6286856,
+    "avgScore": "102.22",
+    "avgComments": "14.18",
+    "dateRange": {
+      "start": 2008,
+      "end": 2025
+    },
+    "topPosts": [
+      {
+        "title": "Joe Biden elected president of the United States",
+        "score": 365124,
+        "comments": 31925,
+        "date": "2020-11-08"
+      },
+      {
+        "title": "Chauvin found guilty of murder, manslaughter in George Floyd's death",
+        "score": 247082,
+        "comments": 31053,
+        "date": "2021-04-21"
+      },
+      {
+        "title": "President Donald Trump says he has tested positive for coronavirus",
+        "score": 233312,
+        "comments": 37298,
+        "date": "2020-10-02"
+      },
+      {
+        "title": "Blizzard Employees Staged a Walkout After the Company Banned a Gamer for Pro-Hong Kong Views",
+        "score": 226318,
+        "comments": 10393,
+        "date": "2019-10-10"
+      },
+      {
+        "title": "Trump has left the White House for the last time as President",
+        "score": 221876,
+        "comments": 12706,
+        "date": "2021-01-20"
+      },
+      {
+        "title": "Kobe Bryant killed in helicopter crash in California",
+        "score": 211263,
+        "comments": 24042,
+        "date": "2020-01-27"
+      },
+      {
+        "title": "'Jeopardy' host Alex Trebek dies at 80 due to pancreatic cancer",
+        "score": 200814,
+        "comments": 5838,
+        "date": "2020-11-09"
+      },
+      {
+        "title": "Queen Elizabeth II, has died",
+        "score": 190946,
+        "comments": 15255,
+        "date": "2022-09-09"
+      },
+      {
+        "title": "Jeffrey Epstein's autopsy more consistent with homicidal strangulation than suicide, Dr. Michael Baden reveals",
+        "score": 185958,
+        "comments": 10946,
+        "date": "2019-10-30"
+      },
+      {
+        "title": "Scientist Stephen Hawking has died aged 76",
+        "score": 184864,
+        "comments": 7872,
+        "date": "2018-03-14"
+      }
+    ]
+  },
+  "topWords": {
+    "words": [
+      "news",
+      "trump",
+      "your",
+      "police",
+      "best",
+      "online",
+      "india",
+      "video",
+      "what",
+      "first",
+      "home",
+      "market",
+      "people",
+      "live",
+      "world",
+      "dead",
+      "services",
+      "into",
+      "house",
+      "woman",
+      "against",
+      "state",
+      "coronavirus",
+      "years",
+      "killed",
+      "report",
+      "death",
+      "court",
+      "school",
+      "shooting",
+      "free",
+      "time",
+      "business",
+      "service",
+      "found",
+      "arrested",
+      "china",
+      "president",
+      "down",
+      "million",
+      "black",
+      "company",
+      "dies",
+      "white",
+      "tips",
+      "year",
+      "case",
+      "family",
+      "make",
+      "help"
+    ],
+    "frequencies": [
+      193998,
+      163128,
+      150098,
+      134993,
+      123052,
+      113675,
+      87273,
+      87167,
+      82948,
+      71234,
+      70706,
+      69869,
+      67628,
+      66609,
+      65880,
+      63316,
+      62973,
+      62725,
+      61345,
+      61241,
+      60434,
+      57748,
+      56903,
+      56785,
+      56676,
+      56126,
+      55570,
+      55492,
+      54083,
+      53847,
+      53374,
+      52687,
+      51159,
+      50981,
+      50970,
+      50845,
+      48241,
+      47938,
+      47678,
+      47656,
+      47421,
+      47302,
+      46715,
+      45854,
+      45562,
+      45513,
+      45134,
+      44869,
+      44680,
+      44592
+    ]
+  }
+}
