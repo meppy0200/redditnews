@@ -4,7 +4,7 @@
 
 Bu proje, 2008-2024 yılları arasındaki Reddit r/news subreddit verilerini kullanarak kapsamlı bir veri bilimi analizi gerçekleştirmektedir. "Veri Bilimine Giriş" dersi için hazırlanmıştır.
 
-## 🎯 Analiz Konuları
+## Analiz Konuları
 
 - **Temel İstatistikler**: Gönderi sayıları, upvote/downvote oranları
 - **Zaman Serisi Analizi**: Yıllara göre trendler, mevsimsel paternler
@@ -12,7 +12,7 @@ Bu proje, 2008-2024 yılları arasındaki Reddit r/news subreddit verilerini kul
 - **Etkileşim Analizi**: En popüler gönderiler, viral içerik özellikleri
 - **Görselleştirme**: Grafikler ve interaktif görseller
 
-## 🚀 Kurulum
+## Kurulum
 
 ### 1. Gerekli Kütüphaneleri Yükleyin
 
@@ -34,7 +34,7 @@ python3 download_data.py
 jupyter notebook reddit_news_analysis.ipynb
 ```
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 .
@@ -44,7 +44,7 @@ jupyter notebook reddit_news_analysis.ipynb
 └── reddit_news_analysis.ipynb    # Ana analiz notebook'u
 ```
 
-## 📈 Beklenen Çıktılar
+## Beklenen Çıktılar
 
 - Zaman serisi grafikleri
 - Kelime bulutları
@@ -52,7 +52,7 @@ jupyter notebook reddit_news_analysis.ipynb
 - Trend raporları
 - Görselleştirilmiş bulgular
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **Python 3.x**
 - **Pandas**: Veri manipülasyonu
@@ -62,10 +62,10 @@ jupyter notebook reddit_news_analysis.ipynb
 - **NLTK**: Metin işleme
 - **Jupyter**: İnteraktif analiz ortamı
 
-## 📝 Lisans
+## Lisans
 
 Bu proje eğitim amaçlıdır.
 
-## 👤 Yazar
+## Yazar
 
 Veri Bilimine Giriş Dersi J Grubu Öğrencileri / OSTIM 
