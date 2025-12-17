@@ -1,6 +1,6 @@
 # Reddit r/news Veri Seti Analiz Projesi
 
-## 📊 Proje Hakkında
+## Proje Hakkında
 
 Bu proje, 2008-2024 yılları arasındaki Reddit r/news subreddit verilerini kullanarak kapsamlı bir veri bilimi analizi gerçekleştirmektedir. "Veri Bilimine Giriş" dersi için hazırlanmıştır.
 
